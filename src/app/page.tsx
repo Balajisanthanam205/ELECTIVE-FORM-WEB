@@ -40,6 +40,12 @@ export default function HomePage() {
               <span className="text-[10px] sm:text-xs text-slate-500 border border-white/10 rounded-full px-2 sm:px-3 py-1 bg-white/5">
                 Academic Year 2024–25
               </span>
+              <a
+                href="/admin"
+                className="text-[10px] sm:text-xs text-slate-600 hover:text-blue-400 transition border border-white/8 rounded-full px-2 sm:px-3 py-1 bg-white/[0.03] hover:bg-blue-500/10"
+              >
+                Admin
+              </a>
             </div>
           </div>
         </div>
