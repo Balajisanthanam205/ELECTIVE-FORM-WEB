@@ -190,29 +190,31 @@ ALTER TABLE public.subjects      ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.registrations ENABLE ROW LEVEL SECURITY;
 
 -- Allow anyone to READ subjects (for seat availability display)
+DROP POLICY IF EXISTS "public_read_subjects" ON public.subjects;
 CREATE POLICY "public_read_subjects"
   ON public.subjects FOR SELECT
   TO anon, authenticated
   USING (true);
 
 -- Block all direct inserts/updates to subjects from client (use RPC only)
+DROP POLICY IF EXISTS "no_direct_subject_write" ON public.subjects;
 CREATE POLICY "no_direct_subject_write"
   ON public.subjects FOR INSERT
   TO anon, authenticated
-  USING (false)
   WITH CHECK (false);
 
 -- Block all direct reads/writes to registrations from client
 -- (all registration operations go through the secure RPC function)
+DROP POLICY IF EXISTS "no_direct_registration_read" ON public.registrations;
 CREATE POLICY "no_direct_registration_read"
   ON public.registrations FOR SELECT
   TO anon
   USING (false);
 
+DROP POLICY IF EXISTS "no_direct_registration_write" ON public.registrations;
 CREATE POLICY "no_direct_registration_write"
   ON public.registrations FOR INSERT
   TO anon
-  USING (false)
   WITH CHECK (false);
 
 -- Allow service role (used by our API) to bypass RLS
