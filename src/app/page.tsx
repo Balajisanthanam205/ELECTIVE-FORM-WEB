@@ -1,3 +1,4 @@
+import Image from "next/image";
 import RegistrationForm from "@/components/RegistrationForm";
 
 export default function HomePage() {
@@ -11,27 +12,22 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
             <div className="flex items-center gap-3">
-              {/* Logo placeholder — SVG crest */}
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="w-4 h-4 sm:w-5 sm:h-5 text-white"
-                >
-                  <path
-                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+              {/* SVCE Logo */}
+              <div className="shrink-0">
+                <Image
+                  src="/svce-logo.png"
+                  alt="SVCE Logo"
+                  width={80}
+                  height={32}
+                  className="h-8 sm:h-10 w-auto object-contain"
+                  priority
+                />
               </div>
               <div>
                 <p className="text-xs sm:text-sm font-bold text-white leading-tight">
-                  SVCE
+                  Sri Venkateswara College of Engineering
                 </p>
-                <p className="text-[10px] sm:text-xs text-slate-400 leading-tight hidden xs:block">
+                <p className="text-[10px] sm:text-xs text-slate-400 leading-tight">
                   VAC Registration Portal
                 </p>
               </div>

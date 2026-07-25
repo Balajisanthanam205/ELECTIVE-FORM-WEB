@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 interface SubjectInfo {
   subject_code: string;
@@ -150,13 +151,18 @@ export default function AdminPage() {
             <div className="p-8">
               {/* Header */}
               <div className="flex flex-col items-center mb-8">
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/30 mb-4">
-                  <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-white">
-                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                <div className="mb-4">
+                  <Image
+                    src="/svce-logo.png"
+                    alt="SVCE Logo"
+                    width={120}
+                    height={48}
+                    className="h-12 w-auto object-contain"
+                    priority
+                  />
                 </div>
                 <h1 className="text-2xl font-bold text-white">Admin Portal</h1>
-                <p className="text-sm text-slate-400 mt-1">SVCE Elective Registration</p>
+                <p className="text-sm text-slate-400 mt-1">VAC Registration · ECE</p>
               </div>
 
               <form onSubmit={handleLogin} className="space-y-4">
@@ -227,14 +233,17 @@ export default function AdminPage() {
       <header className="relative z-10 border-b border-white/5 bg-[#070d1a]/90 backdrop-blur-xl sticky top-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-white">
-                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-            <span className="font-bold text-sm text-white">SVCE Admin Portal</span>
+            <Image
+              src="/svce-logo.png"
+              alt="SVCE Logo"
+              width={70}
+              height={28}
+              className="h-7 w-auto object-contain"
+              priority
+            />
+            <span className="font-bold text-sm text-white">Admin Portal</span>
             <span className="hidden sm:inline text-xs text-slate-500 border border-white/10 rounded-full px-2 py-0.5 bg-white/5">
-              OE Registration
+              VAC Registration
             </span>
           </div>
           <div className="flex items-center gap-3">
