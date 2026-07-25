@@ -32,13 +32,16 @@ export default function HomePage() {
                   SVCE
                 </p>
                 <p className="text-[10px] sm:text-xs text-slate-400 leading-tight hidden xs:block">
-                  Sri Venkateswara College of Engineering
+                  VAC Registration Portal
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-2">
+              <span className="text-[10px] sm:text-xs text-blue-400 border border-blue-500/20 rounded-full px-2 sm:px-3 py-1 bg-blue-500/10 font-semibold hidden sm:inline">
+                ECE
+              </span>
               <span className="text-[10px] sm:text-xs text-slate-500 border border-white/10 rounded-full px-2 sm:px-3 py-1 bg-white/5">
-                Academic Year 2024–25
+                AY 2026–2027
               </span>
               <a
                 href="/admin"

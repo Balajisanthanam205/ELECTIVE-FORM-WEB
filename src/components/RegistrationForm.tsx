@@ -30,7 +30,7 @@ import type { Subject } from "@/lib/validations";
 
 interface FormState {
   student_name: string;
-  roll_number: string;
+  registration_number: string;
   section: string;
   college_email: string;
   subject_id: string;
@@ -38,7 +38,7 @@ interface FormState {
 
 interface FieldError {
   student_name?: string;
-  roll_number?: string;
+  registration_number?: string;
   section?: string;
   college_email?: string;
   subject_id?: string;
@@ -53,7 +53,7 @@ export default function RegistrationForm() {
 
   const [form, setForm] = useState<FormState>({
     student_name: "",
-    roll_number: "",
+    registration_number: "",
     section: "",
     college_email: "",
     subject_id: "",
@@ -94,11 +94,13 @@ export default function RegistrationForm() {
       valid = false;
     }
 
-    if (!form.roll_number.trim()) {
-      errors.roll_number = "Roll number is required";
+    const regPrefix = "2127240701";
+    const suffix = form.registration_number.trim();
+    if (!suffix) {
+      errors.registration_number = "Registration number is required";
       valid = false;
-    } else if (!/^[A-Za-z0-9]+$/.test(form.roll_number.trim())) {
-      errors.roll_number = "Roll number must contain only letters and numbers";
+    } else if (!/^\d{3}$/.test(suffix)) {
+      errors.registration_number = "Enter the last 3 digits of your registration number";
       valid = false;
     }
 
@@ -134,11 +136,17 @@ export default function RegistrationForm() {
     setSubmitting(true);
     setFieldErrors({});
 
+    // Combine prefix + suffix into the full registration number for submission
+    const payload = {
+      ...form,
+      roll_number: `2127240701${form.registration_number.trim()}`,
+    };
+
     try {
       const res = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify(payload),
       });
 
       const data = await res.json();
@@ -168,7 +176,7 @@ export default function RegistrationForm() {
 
   const handleChange = (field: keyof FormState, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }));
-    if (fieldErrors[field]) {
+    if (fieldErrors[field as keyof FieldError]) {
       setFieldErrors((prev) => ({ ...prev, [field]: undefined }));
     }
   };
@@ -186,8 +194,16 @@ export default function RegistrationForm() {
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 shadow-lg shadow-blue-500/30 mb-4">
           <GraduationCap className="w-8 h-8 text-white" />
         </div>
+        {/* ECE badge + AY */}
+        <div className="flex items-center justify-center gap-2 mb-3">
+          <span className="text-[11px] font-semibold text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full px-3 py-1 tracking-wide">
+            Dept. of ECE
+          </span>
+          <span className="text-[11px] text-slate-500">·</span>
+          <span className="text-[11px] text-slate-500">AY 2026–2027</span>
+        </div>
         <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2 tracking-tight">
-          Elective Course Registration
+          VAC Registration Portal
         </h1>
         <p className="text-slate-400 text-sm sm:text-base">
           Register for your elective subject — one registration per student
@@ -223,25 +239,33 @@ export default function RegistrationForm() {
           />
         </FormField>
 
-        {/* Roll Number */}
+        {/* Registration Number */}
         <FormField
-          id="roll_number"
-          label="Roll Number"
+          id="registration_number"
+          label="Registration No."
           icon={<Hash className="w-4 h-4" />}
-          error={fieldErrors.roll_number}
+          error={fieldErrors.registration_number}
+          hint="Enter only the last 3 digits — prefix 2127240701 is fixed"
         >
-          <Input
-            id="roll_number"
-            type="text"
-            placeholder="e.g. 22EC001"
-            value={form.roll_number}
-            onChange={(e) =>
-              handleChange("roll_number", e.target.value.toUpperCase())
-            }
-            disabled={submitting}
-            autoComplete="off"
-            aria-invalid={!!fieldErrors.roll_number}
-          />
+          <div className="flex items-center rounded-xl border border-white/10 bg-white/5 overflow-hidden focus-within:border-blue-500/60 focus-within:bg-blue-500/5 transition">
+            <span className="px-3 py-2.5 text-sm font-mono text-slate-500 bg-white/5 border-r border-white/10 select-none whitespace-nowrap">
+              2127240701
+            </span>
+            <input
+              id="registration_number"
+              type="text"
+              maxLength={3}
+              placeholder="XXX"
+              value={form.registration_number}
+              onChange={(e) =>
+                handleChange("registration_number", e.target.value.replace(/\D/g, ""))
+              }
+              disabled={submitting}
+              autoComplete="off"
+              aria-invalid={!!fieldErrors.registration_number}
+              className="flex-1 bg-transparent px-3 py-2.5 text-sm font-mono text-white placeholder-slate-600 focus:outline-none min-w-0"
+            />
+          </div>
         </FormField>
 
         {/* Section & Email — side by side on md+ */}
