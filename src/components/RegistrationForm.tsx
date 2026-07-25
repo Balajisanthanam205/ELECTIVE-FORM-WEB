@@ -47,8 +47,6 @@ interface FieldError {
   subject_id?: string;
 }
 
-const MAX_SEATS = 48;
-
 export default function RegistrationForm() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [loadingSubjects, setLoadingSubjects] = useState(true);
@@ -588,7 +586,7 @@ function SubjectAvailability({
                 />
               </div>
               <p className="text-[10px] text-slate-500 mt-1.5">
-                {isFull ? "No seats left" : `${remaining} / ${MAX_SEATS} seats`}
+                {isFull ? "No seats left" : `${remaining} / ${subj.max_seats} seats`}
               </p>
             </div>
           );
