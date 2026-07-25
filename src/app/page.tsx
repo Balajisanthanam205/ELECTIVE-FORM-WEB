@@ -82,9 +82,6 @@ export default function HomePage() {
               Department of Electronics &amp; Communication Engineering
               &nbsp;•&nbsp; Elective Registration Portal
             </p>
-            <p className="text-xs text-slate-700 mt-1">
-              Each subject is limited to 48 students. Registration is on a first-come, first-served basis.
-            </p>
           </div>
         </div>
       </div>
