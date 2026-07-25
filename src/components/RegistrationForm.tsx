@@ -47,7 +47,7 @@ interface FieldError {
   subject_id?: string;
 }
 
-const MAX_SEATS = 2;
+const MAX_SEATS = 48;
 
 export default function RegistrationForm() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
