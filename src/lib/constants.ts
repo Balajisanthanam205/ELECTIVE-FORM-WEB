@@ -27,7 +27,7 @@ export const SECTIONS = [
   "C",
 ] as const;
 
-export const MAX_SEATS = 48;
+export const MAX_SEATS = 2;
 export const COLLEGE_EMAIL_DOMAIN = "@svce.ac.in";
 
 export type SubjectCode = (typeof SUBJECTS)[number]["code"];
