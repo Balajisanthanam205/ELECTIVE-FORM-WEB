@@ -76,13 +76,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Footer note */}
-          <div className="mt-6 text-center">
-            <p className="text-xs text-slate-600">
-              Department of Electronics &amp; Communication Engineering
-              &nbsp;•&nbsp; Elective Registration Portal
-            </p>
-          </div>
+
         </div>
       </div>
     </main>
