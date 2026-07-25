@@ -158,7 +158,7 @@ export async function GET(request: NextRequest) {
     headers: {
       "Content-Type":
         "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "Content-Disposition": `attachment; filename="OE_Registrations_${dateStr}.xlsx"`,
+      "Content-Disposition": `attachment; filename="VAC_Registrations_${dateStr}.xlsx"`,
       "Cache-Control": "no-store",
     },
   });
