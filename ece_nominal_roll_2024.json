@@ -1,0 +1,1171 @@
+{
+  "degree": "B.E.",
+  "branch": "Electronics and Communication Engineering",
+  "academic_year": 2024,
+  "semester": "05",
+  "registration_number_range": {
+    "start": "2127240701001",
+    "end": "2127240701501"
+  },
+  "count": 193,
+  "students": [
+    {
+      "sr_no": 1,
+      "adm_no": "2024EC0592",
+      "univ_reg_no": "2127240701001",
+      "student_name": "A AADHITHYA NARAYANAN"
+    },
+    {
+      "sr_no": 2,
+      "adm_no": "2024EC0217",
+      "univ_reg_no": "2127240701002",
+      "student_name": "ABHIMANYU SINGH BHATI"
+    },
+    {
+      "sr_no": 3,
+      "adm_no": "2024EC0907",
+      "univ_reg_no": "2127240701003",
+      "student_name": "ABIJESH JP"
+    },
+    {
+      "sr_no": 4,
+      "adm_no": "2024EC0635",
+      "univ_reg_no": "2127240701004",
+      "student_name": "ABRAR"
+    },
+    {
+      "sr_no": 5,
+      "adm_no": "2024EC0267",
+      "univ_reg_no": "2127240701005",
+      "student_name": "ADITYA K"
+    },
+    {
+      "sr_no": 6,
+      "adm_no": "2024EC0255",
+      "univ_reg_no": "2127240701006",
+      "student_name": "AGILAPRIYAN D"
+    },
+    {
+      "sr_no": 7,
+      "adm_no": "2024EC0976",
+      "univ_reg_no": "2127240701007",
+      "student_name": "AKASH RAM CHITTIBABU SULEKHA"
+    },
+    {
+      "sr_no": 8,
+      "adm_no": "2024EC0260",
+      "univ_reg_no": "2127240701008",
+      "student_name": "AKSHAYAKIRUTHIGA S T"
+    },
+    {
+      "sr_no": 9,
+      "adm_no": "2024EC1023",
+      "univ_reg_no": "2127240701009",
+      "student_name": "AKSHAYATH   VIJAYAKUMAR"
+    },
+    {
+      "sr_no": 10,
+      "adm_no": "2024EC0120",
+      "univ_reg_no": "2127240701010",
+      "student_name": "AMIRTHAVARSHINI R M"
+    },
+    {
+      "sr_no": 11,
+      "adm_no": "2024EC0119",
+      "univ_reg_no": "2127240701011",
+      "student_name": "ARUN K S"
+    },
+    {
+      "sr_no": 12,
+      "adm_no": "2024EC0914",
+      "univ_reg_no": "2127240701012",
+      "student_name": "ARUNAGEETHAYAN A"
+    },
+    {
+      "sr_no": 13,
+      "adm_no": "2024EC0917",
+      "univ_reg_no": "2127240701013",
+      "student_name": "ARUNSANKAR S"
+    },
+    {
+      "sr_no": 14,
+      "adm_no": "2024EC0662",
+      "univ_reg_no": "2127240701014",
+      "student_name": "ASHWIN   V"
+    },
+    {
+      "sr_no": 15,
+      "adm_no": "2024EC0947",
+      "univ_reg_no": "2127240701015",
+      "student_name": "ASHWINKUMAR T"
+    },
+    {
+      "sr_no": 16,
+      "adm_no": "2024EC0983",
+      "univ_reg_no": "2127240701016",
+      "student_name": "ASHWINTH R"
+    },
+    {
+      "sr_no": 17,
+      "adm_no": "2024EC0977",
+      "univ_reg_no": "2127240701017",
+      "student_name": "ASMITHA S"
+    },
+    {
+      "sr_no": 18,
+      "adm_no": "2024EC0600",
+      "univ_reg_no": "2127240701018",
+      "student_name": "ATHMAJA G"
+    },
+    {
+      "sr_no": 19,
+      "adm_no": "2024EC0223",
+      "univ_reg_no": "2127240701019",
+      "student_name": "B S AARTI"
+    },
+    {
+      "sr_no": 20,
+      "adm_no": "2024EC0620",
+      "univ_reg_no": "2127240701020",
+      "student_name": "B S SHRENIK"
+    },
+    {
+      "sr_no": 21,
+      "adm_no": "2024EC1005",
+      "univ_reg_no": "2127240701021",
+      "student_name": "B THIRUMAGANSRIRAM"
+    },
+    {
+      "sr_no": 22,
+      "adm_no": "2024EC0631",
+      "univ_reg_no": "2127240701022",
+      "student_name": "BALAMURUGAN L"
+    },
+    {
+      "sr_no": 23,
+      "adm_no": "2024EC0595",
+      "univ_reg_no": "2127240701023",
+      "student_name": "BALAMURUGAN S"
+    },
+    {
+      "sr_no": 24,
+      "adm_no": "2024EC0181",
+      "univ_reg_no": "2127240701024",
+      "student_name": "BHAKYA LAKSHMI P"
+    },
+    {
+      "sr_no": 25,
+      "adm_no": "2024EC0628",
+      "univ_reg_no": "2127240701025",
+      "student_name": "BHARATH KALYAN B"
+    },
+    {
+      "sr_no": 26,
+      "adm_no": "2024EC0226",
+      "univ_reg_no": "2127240701026",
+      "student_name": "BHAVANA S"
+    },
+    {
+      "sr_no": 27,
+      "adm_no": "2024EC0201",
+      "univ_reg_no": "2127240701027",
+      "student_name": "BHOOMINATH S"
+    },
+    {
+      "sr_no": 28,
+      "adm_no": "2024EC0078",
+      "univ_reg_no": "2127240701028",
+      "student_name": "BHUWANESHWARAN D"
+    },
+    {
+      "sr_no": 29,
+      "adm_no": "2024EC0393",
+      "univ_reg_no": "2127240701029",
+      "student_name": "CINTHIYAN R D"
+    },
+    {
+      "sr_no": 30,
+      "adm_no": "2024EC0651",
+      "univ_reg_no": "2127240701030",
+      "student_name": "DARUN H"
+    },
+    {
+      "sr_no": 31,
+      "adm_no": "2024EC0675",
+      "univ_reg_no": "2127240701031",
+      "student_name": "DEEPAKBALAN C M"
+    },
+    {
+      "sr_no": 32,
+      "adm_no": "2024EC0791",
+      "univ_reg_no": "2127240701032",
+      "student_name": "DEVADHARSHINI S A"
+    },
+    {
+      "sr_no": 33,
+      "adm_no": "2024EC0005",
+      "univ_reg_no": "2127240701033",
+      "student_name": "DHANYA M"
+    },
+    {
+      "sr_no": 34,
+      "adm_no": "2024EC0922",
+      "univ_reg_no": "2127240701034",
+      "student_name": "DHARUN KUMAR K"
+    },
+    {
+      "sr_no": 35,
+      "adm_no": "2024EC0277",
+      "univ_reg_no": "2127240701035",
+      "student_name": "DHEVADHURSHANIE E"
+    },
+    {
+      "sr_no": 36,
+      "adm_no": "2024EC0074",
+      "univ_reg_no": "2127240701036",
+      "student_name": "DHIVYA S"
+    },
+    {
+      "sr_no": 37,
+      "adm_no": "2024EC0683",
+      "univ_reg_no": "2127240701037",
+      "student_name": "DINESH KUMAR M"
+    },
+    {
+      "sr_no": 38,
+      "adm_no": "2024EC0250",
+      "univ_reg_no": "2127240701038",
+      "student_name": "DINESH S"
+    },
+    {
+      "sr_no": 39,
+      "adm_no": "2024EC0263",
+      "univ_reg_no": "2127240701039",
+      "student_name": "ENTHEZHIL T"
+    },
+    {
+      "sr_no": 40,
+      "adm_no": "2024EC0666",
+      "univ_reg_no": "2127240701040",
+      "student_name": "G RUKMANI BALA"
+    },
+    {
+      "sr_no": 41,
+      "adm_no": "2024EC0070",
+      "univ_reg_no": "2127240701041",
+      "student_name": "GIRISHA GAYATHRI B"
+    },
+    {
+      "sr_no": 42,
+      "adm_no": "2024EC0138",
+      "univ_reg_no": "2127240701042",
+      "student_name": "GOKUL E"
+    },
+    {
+      "sr_no": 43,
+      "adm_no": "2024EC0195",
+      "univ_reg_no": "2127240701043",
+      "student_name": "GOKUL M"
+    },
+    {
+      "sr_no": 44,
+      "adm_no": "2024EC0679",
+      "univ_reg_no": "2127240701044",
+      "student_name": "GOROCHHANA VIGNESH"
+    },
+    {
+      "sr_no": 45,
+      "adm_no": "2024EC0252",
+      "univ_reg_no": "2127240701045",
+      "student_name": "GOWTHAM D"
+    },
+    {
+      "sr_no": 46,
+      "adm_no": "2024EC0231",
+      "univ_reg_no": "2127240701046",
+      "student_name": "GRISLER PAUL J"
+    },
+    {
+      "sr_no": 47,
+      "adm_no": "2024EC0656",
+      "univ_reg_no": "2127240701047",
+      "student_name": "GURU ANIRUD V"
+    },
+    {
+      "sr_no": 48,
+      "adm_no": "2024EC0279",
+      "univ_reg_no": "2127240701048",
+      "student_name": "GURU P"
+    },
+    {
+      "sr_no": 49,
+      "adm_no": "2024EC0901",
+      "univ_reg_no": "2127240701049",
+      "student_name": "HAREENA MAHESH M D"
+    },
+    {
+      "sr_no": 50,
+      "adm_no": "2024EC0918",
+      "univ_reg_no": "2127240701050",
+      "student_name": "HARI PRASATH S"
+    },
+    {
+      "sr_no": 51,
+      "adm_no": "2024EC1013",
+      "univ_reg_no": "2127240701051",
+      "student_name": "HARI S"
+    },
+    {
+      "sr_no": 52,
+      "adm_no": "2024EC0943",
+      "univ_reg_no": "2127240701052",
+      "student_name": "HARIHARA R J"
+    },
+    {
+      "sr_no": 53,
+      "adm_no": "2024EC0146",
+      "univ_reg_no": "2127240701053",
+      "student_name": "HARIHARAN S"
+    },
+    {
+      "sr_no": 54,
+      "adm_no": "2024EC0234",
+      "univ_reg_no": "2127240701054",
+      "student_name": "HARINI SRI M"
+    },
+    {
+      "sr_no": 55,
+      "adm_no": "2024EC0931",
+      "univ_reg_no": "2127240701055",
+      "student_name": "HARISH S"
+    },
+    {
+      "sr_no": 56,
+      "adm_no": "2024EC0993",
+      "univ_reg_no": "2127240701056",
+      "student_name": "HARSHA VARDHAN N"
+    },
+    {
+      "sr_no": 57,
+      "adm_no": "2024EC0068",
+      "univ_reg_no": "2127240701057",
+      "student_name": "HARSITH PRITHVI D S"
+    },
+    {
+      "sr_no": 58,
+      "adm_no": "2024EC0402",
+      "univ_reg_no": "2127240701058",
+      "student_name": "HASMATH FARHANA B"
+    },
+    {
+      "sr_no": 59,
+      "adm_no": "2024EC0297",
+      "univ_reg_no": "2127240701059",
+      "student_name": "HEMALATHA R"
+    },
+    {
+      "sr_no": 60,
+      "adm_no": "2024EC0611",
+      "univ_reg_no": "2127240701060",
+      "student_name": "HEMANTH D"
+    },
+    {
+      "sr_no": 61,
+      "adm_no": "2024EC0149",
+      "univ_reg_no": "2127240701061",
+      "student_name": "IRFANAA PARVEEN M"
+    },
+    {
+      "sr_no": 62,
+      "adm_no": "2024EC0878",
+      "univ_reg_no": "2127240701062",
+      "student_name": "JADILA SUBRAMANIYAN V S"
+    },
+    {
+      "sr_no": 63,
+      "adm_no": "2024EC0898",
+      "univ_reg_no": "2127240701063",
+      "student_name": "JANARTHAN S M"
+    },
+    {
+      "sr_no": 64,
+      "adm_no": "2024EC0198",
+      "univ_reg_no": "2127240701064",
+      "student_name": "JAYASRI J"
+    },
+    {
+      "sr_no": 65,
+      "adm_no": "2024EC0037",
+      "univ_reg_no": "2127240701065",
+      "student_name": "JOHN JOSHUA SOLOMON RAJESH"
+    },
+    {
+      "sr_no": 66,
+      "adm_no": "2024EC0673",
+      "univ_reg_no": "2127240701066",
+      "student_name": "K BUVANESWARAN"
+    },
+    {
+      "sr_no": 67,
+      "adm_no": "2024EC0617",
+      "univ_reg_no": "2127240701067",
+      "student_name": "K R KIRUTHICK KUMAR"
+    },
+    {
+      "sr_no": 68,
+      "adm_no": "2024EC0659",
+      "univ_reg_no": "2127240701068",
+      "student_name": "K STAVROSH"
+    },
+    {
+      "sr_no": 69,
+      "adm_no": "2024EC0208",
+      "univ_reg_no": "2127240701069",
+      "student_name": "K THARUN VEL"
+    },
+    {
+      "sr_no": 70,
+      "adm_no": "2024EC0046",
+      "univ_reg_no": "2127240701070",
+      "student_name": "KAAMESH S"
+    },
+    {
+      "sr_no": 71,
+      "adm_no": "2024EC0205",
+      "univ_reg_no": "2127240701071",
+      "student_name": "KALAISELVAN K"
+    },
+    {
+      "sr_no": 72,
+      "adm_no": "2024EC0345",
+      "univ_reg_no": "2127240701072",
+      "student_name": "KALANITHI A"
+    },
+    {
+      "sr_no": 73,
+      "adm_no": "2024EC0448",
+      "univ_reg_no": "2127240701073",
+      "student_name": "KAMALINA K"
+    },
+    {
+      "sr_no": 74,
+      "adm_no": "2024EC0967",
+      "univ_reg_no": "2127240701074",
+      "student_name": "KARTHIK M"
+    },
+    {
+      "sr_no": 75,
+      "adm_no": "2024EC0014",
+      "univ_reg_no": "2127240701075",
+      "student_name": "KARTHIKEYAN M"
+    },
+    {
+      "sr_no": 76,
+      "adm_no": "2024EC0108",
+      "univ_reg_no": "2127240701076",
+      "student_name": "KAVIRAJAN P"
+    },
+    {
+      "sr_no": 77,
+      "adm_no": "2024EC0445",
+      "univ_reg_no": "2127240701077",
+      "student_name": "KAVIYA S"
+    },
+    {
+      "sr_no": 78,
+      "adm_no": "2024EC0117",
+      "univ_reg_no": "2127240701078",
+      "student_name": "KAVIYA SRI S"
+    },
+    {
+      "sr_no": 79,
+      "adm_no": "2024EC0955",
+      "univ_reg_no": "2127240701079",
+      "student_name": "KEERTHANA R"
+    },
+    {
+      "sr_no": 80,
+      "adm_no": "2024EC1009",
+      "univ_reg_no": "2127240701080",
+      "student_name": "KEERTHIGA   S"
+    },
+    {
+      "sr_no": 81,
+      "adm_no": "2024EC0116",
+      "univ_reg_no": "2127240701081",
+      "student_name": "KEERTHIKA M"
+    },
+    {
+      "sr_no": 82,
+      "adm_no": "2024EC0920",
+      "univ_reg_no": "2127240701082",
+      "student_name": "KESHORE P"
+    },
+    {
+      "sr_no": 83,
+      "adm_no": "2024EC0882",
+      "univ_reg_no": "2127240701083",
+      "student_name": "KRITHIKA RAJAPANDIAN"
+    },
+    {
+      "sr_no": 84,
+      "adm_no": "2024EC0151",
+      "univ_reg_no": "2127240701084",
+      "student_name": "LAVANYA C"
+    },
+    {
+      "sr_no": 85,
+      "adm_no": "2024EC0030",
+      "univ_reg_no": "2127240701085",
+      "student_name": "LIKITHA E"
+    },
+    {
+      "sr_no": 86,
+      "adm_no": "2024EC0892",
+      "univ_reg_no": "2127240701086",
+      "student_name": "LOGESHWARAN M"
+    },
+    {
+      "sr_no": 87,
+      "adm_no": "2024EC0257",
+      "univ_reg_no": "2127240701087",
+      "student_name": "LOGESHWARAN R"
+    },
+    {
+      "sr_no": 88,
+      "adm_no": "2024EC0292",
+      "univ_reg_no": "2127240701088",
+      "student_name": "LOHITH G"
+    },
+    {
+      "sr_no": 89,
+      "adm_no": "2024EC0349",
+      "univ_reg_no": "2127240701089",
+      "student_name": "LOKESH M"
+    },
+    {
+      "sr_no": 90,
+      "adm_no": "2024EC0186",
+      "univ_reg_no": "2127240701090",
+      "student_name": "M DEEPAK"
+    },
+    {
+      "sr_no": 91,
+      "adm_no": "2024EC0657",
+      "univ_reg_no": "2127240701091",
+      "student_name": "M KESHAVARAM"
+    },
+    {
+      "sr_no": 92,
+      "adm_no": "2024EC0640",
+      "univ_reg_no": "2127240701092",
+      "student_name": "M NIRANJAN"
+    },
+    {
+      "sr_no": 93,
+      "adm_no": "2024EC0598",
+      "univ_reg_no": "2127240701093",
+      "student_name": "MADHU MITHA N"
+    },
+    {
+      "sr_no": 94,
+      "adm_no": "2024EC0167",
+      "univ_reg_no": "2127240701094",
+      "student_name": "MAHALAKSHMI L"
+    },
+    {
+      "sr_no": 95,
+      "adm_no": "2024EC0950",
+      "univ_reg_no": "2127240701095",
+      "student_name": "MAHESH K R V"
+    },
+    {
+      "sr_no": 96,
+      "adm_no": "2024EC0618",
+      "univ_reg_no": "2127240701096",
+      "student_name": "MANOJ R"
+    },
+    {
+      "sr_no": 97,
+      "adm_no": "2024EC0655",
+      "univ_reg_no": "2127240701097",
+      "student_name": "MANOOJ KUMAR N"
+    },
+    {
+      "sr_no": 98,
+      "adm_no": "2024EC0897",
+      "univ_reg_no": "2127240701098",
+      "student_name": "MEYYAPPAN MEENAKSHI"
+    },
+    {
+      "sr_no": 99,
+      "adm_no": "2024EC0281",
+      "univ_reg_no": "2127240701099",
+      "student_name": "MOHANAPRIYA P"
+    },
+    {
+      "sr_no": 100,
+      "adm_no": "2024EC0849",
+      "univ_reg_no": "2127240701100",
+      "student_name": "MONICA S"
+    },
+    {
+      "sr_no": 101,
+      "adm_no": "2024EC0653",
+      "univ_reg_no": "2127240701101",
+      "student_name": "N RAHUL"
+    },
+    {
+      "sr_no": 102,
+      "adm_no": "2024EC0206",
+      "univ_reg_no": "2127240701102",
+      "student_name": "N YAAZHINII"
+    },
+    {
+      "sr_no": 103,
+      "adm_no": "2024EC0166",
+      "univ_reg_no": "2127240701103",
+      "student_name": "NANDHAGOPAL B"
+    },
+    {
+      "sr_no": 104,
+      "adm_no": "2024EC0224",
+      "univ_reg_no": "2127240701104",
+      "student_name": "NANDHITHASRI K K"
+    },
+    {
+      "sr_no": 105,
+      "adm_no": "2024EC1007",
+      "univ_reg_no": "2127240701105",
+      "student_name": "NARENDRAPRASATH M L"
+    },
+    {
+      "sr_no": 106,
+      "adm_no": "2024EC1006",
+      "univ_reg_no": "2127240701106",
+      "student_name": "NEHAA SRI M S"
+    },
+    {
+      "sr_no": 107,
+      "adm_no": "2024EC0127",
+      "univ_reg_no": "2127240701107",
+      "student_name": "NISHA L"
+    },
+    {
+      "sr_no": 108,
+      "adm_no": "2024EC0668",
+      "univ_reg_no": "2127240701108",
+      "student_name": "NITHILAN CHELLATHURAI"
+    },
+    {
+      "sr_no": 109,
+      "adm_no": "2024EC0625",
+      "univ_reg_no": "2127240701109",
+      "student_name": "NITHIN JAASIEL B"
+    },
+    {
+      "sr_no": 110,
+      "adm_no": "2024EC0286",
+      "univ_reg_no": "2127240701110",
+      "student_name": "NITHISH KUMAR N"
+    },
+    {
+      "sr_no": 111,
+      "adm_no": "2024EC0305",
+      "univ_reg_no": "2127240701111",
+      "student_name": "PARTHIBHARAJAN R"
+    },
+    {
+      "sr_no": 112,
+      "adm_no": "2024EC0274",
+      "univ_reg_no": "2127240701112",
+      "student_name": "PAVITHRA   M"
+    },
+    {
+      "sr_no": 113,
+      "adm_no": "2024EC0664",
+      "univ_reg_no": "2127240701113",
+      "student_name": "PRATHIBA M S K"
+    },
+    {
+      "sr_no": 114,
+      "adm_no": "2024EC0085",
+      "univ_reg_no": "2127240701114",
+      "student_name": "PRAVEEN BABU G"
+    },
+    {
+      "sr_no": 115,
+      "adm_no": "2024EC0919",
+      "univ_reg_no": "2127240701115",
+      "student_name": "PRAVIN D A"
+    },
+    {
+      "sr_no": 116,
+      "adm_no": "2024EC0575",
+      "univ_reg_no": "2127240701116",
+      "student_name": "PREETHIKA R"
+    },
+    {
+      "sr_no": 117,
+      "adm_no": "2024EC0179",
+      "univ_reg_no": "2127240701117",
+      "student_name": "PREMNATH N"
+    },
+    {
+      "sr_no": 118,
+      "adm_no": "2024EC0016",
+      "univ_reg_no": "2127240701118",
+      "student_name": "PRINCY NIKITHA J"
+    },
+    {
+      "sr_no": 119,
+      "adm_no": "2024EC0908",
+      "univ_reg_no": "2127240701119",
+      "student_name": "PRIYADHARSHAN   A B"
+    },
+    {
+      "sr_no": 120,
+      "adm_no": "2024EC0644",
+      "univ_reg_no": "2127240701120",
+      "student_name": "R V SAI SIRISH"
+    },
+    {
+      "sr_no": 121,
+      "adm_no": "2024EC0622",
+      "univ_reg_no": "2127240701121",
+      "student_name": "RAGHAV G S"
+    },
+    {
+      "sr_no": 122,
+      "adm_no": "2024EC0362",
+      "univ_reg_no": "2127240701122",
+      "student_name": "RAHUL G"
+    },
+    {
+      "sr_no": 123,
+      "adm_no": "2024EC0434",
+      "univ_reg_no": "2127240701123",
+      "student_name": "RAHUL S"
+    },
+    {
+      "sr_no": 124,
+      "adm_no": "2024EC0626",
+      "univ_reg_no": "2127240701124",
+      "student_name": "RAHUL SURIYA V"
+    },
+    {
+      "sr_no": 125,
+      "adm_no": "2024EC0881",
+      "univ_reg_no": "2127240701125",
+      "student_name": "RAMASAMY SP"
+    },
+    {
+      "sr_no": 126,
+      "adm_no": "2024EC0131",
+      "univ_reg_no": "2127240701126",
+      "student_name": "RAMSUBEESHA R S"
+    },
+    {
+      "sr_no": 127,
+      "adm_no": "2024EC0343",
+      "univ_reg_no": "2127240701127",
+      "student_name": "RAVEENDRAN K"
+    },
+    {
+      "sr_no": 128,
+      "adm_no": "2024EC0930",
+      "univ_reg_no": "2127240701128",
+      "student_name": "RB YUVAN"
+    },
+    {
+      "sr_no": 129,
+      "adm_no": "2024EC0636",
+      "univ_reg_no": "2127240701129",
+      "student_name": "RENGAVADIVELAMMAAL C"
+    },
+    {
+      "sr_no": 130,
+      "adm_no": "2024EC0823",
+      "univ_reg_no": "2127240701130",
+      "student_name": "RUPASHVINAYAK DHANAPAL"
+    },
+    {
+      "sr_no": 131,
+      "adm_no": "2024EC0629",
+      "univ_reg_no": "2127240701131",
+      "student_name": "RUPESH J"
+    },
+    {
+      "sr_no": 132,
+      "adm_no": "2024EC0623",
+      "univ_reg_no": "2127240701132",
+      "student_name": "S B SNIGDHA"
+    },
+    {
+      "sr_no": 133,
+      "adm_no": "2024EC0594",
+      "univ_reg_no": "2127240701133",
+      "student_name": "S HARI PRASHAD"
+    },
+    {
+      "sr_no": 134,
+      "adm_no": "2024EC0641",
+      "univ_reg_no": "2127240701134",
+      "student_name": "S MEENA"
+    },
+    {
+      "sr_no": 135,
+      "adm_no": "2024EC0923",
+      "univ_reg_no": "2127240701135",
+      "student_name": "S NAGAMANI KANDAN"
+    },
+    {
+      "sr_no": 136,
+      "adm_no": "2024EC0680",
+      "univ_reg_no": "2127240701136",
+      "student_name": "S SANTHOSH"
+    },
+    {
+      "sr_no": 137,
+      "adm_no": "2024EC0665",
+      "univ_reg_no": "2127240701137",
+      "student_name": "SAI VIGNESH S"
+    },
+    {
+      "sr_no": 138,
+      "adm_no": "2024EC0039",
+      "univ_reg_no": "2127240701138",
+      "student_name": "SAISHA PRIYADARSHINI S"
+    },
+    {
+      "sr_no": 139,
+      "adm_no": "2024EC0612",
+      "univ_reg_no": "2127240701139",
+      "student_name": "SANCHITHA D"
+    },
+    {
+      "sr_no": 140,
+      "adm_no": "2024EC0602",
+      "univ_reg_no": "2127240701140",
+      "student_name": "SANJAI P"
+    },
+    {
+      "sr_no": 141,
+      "adm_no": "2024EC0670",
+      "univ_reg_no": "2127240701141",
+      "student_name": "SANJAY SRINIVASAN B"
+    },
+    {
+      "sr_no": 142,
+      "adm_no": "2024EC0261",
+      "univ_reg_no": "2127240701142",
+      "student_name": "SANTHOSH KARTHICK M"
+    },
+    {
+      "sr_no": 143,
+      "adm_no": "2024EC0645",
+      "univ_reg_no": "2127240701143",
+      "student_name": "SANYU J"
+    },
+    {
+      "sr_no": 144,
+      "adm_no": "2024EC0613",
+      "univ_reg_no": "2127240701144",
+      "student_name": "SARABESH ADITHYA D"
+    },
+    {
+      "sr_no": 145,
+      "adm_no": "2024EC0272",
+      "univ_reg_no": "2127240701145",
+      "student_name": "SARABHESWARAN E S"
+    },
+    {
+      "sr_no": 146,
+      "adm_no": "2024EC0236",
+      "univ_reg_no": "2127240701146",
+      "student_name": "SARATHI SELVAM D"
+    },
+    {
+      "sr_no": 147,
+      "adm_no": "2024EC0615",
+      "univ_reg_no": "2127240701147",
+      "student_name": "SARVESH M"
+    },
+    {
+      "sr_no": 148,
+      "adm_no": "2024EC0300",
+      "univ_reg_no": "2127240701148",
+      "student_name": "SEDHURAMAN S"
+    },
+    {
+      "sr_no": 149,
+      "adm_no": "2024EC0054",
+      "univ_reg_no": "2127240701149",
+      "student_name": "SETHURAJAN S"
+    },
+    {
+      "sr_no": 150,
+      "adm_no": "2024EC0642",
+      "univ_reg_no": "2127240701150",
+      "student_name": "SHAMITHA SARAVANAN"
+    },
+    {
+      "sr_no": 151,
+      "adm_no": "2024EC0987",
+      "univ_reg_no": "2127240701151",
+      "student_name": "SHANJAY C"
+    },
+    {
+      "sr_no": 152,
+      "adm_no": "2024EC0646",
+      "univ_reg_no": "2127240701152",
+      "student_name": "SHARVESH VARSHAN M K"
+    },
+    {
+      "sr_no": 153,
+      "adm_no": "2024EC0853",
+      "univ_reg_no": "2127240701153",
+      "student_name": "SHAWN ABRAHAM JOSEPH L"
+    },
+    {
+      "sr_no": 154,
+      "adm_no": "2024EC0638",
+      "univ_reg_no": "2127240701154",
+      "student_name": "SHIVARAMAN S"
+    },
+    {
+      "sr_no": 155,
+      "adm_no": "2024EC0741",
+      "univ_reg_no": "2127240701155",
+      "student_name": "SHREE RAGHAV KUMAR E"
+    },
+    {
+      "sr_no": 156,
+      "adm_no": "2024EC0232",
+      "univ_reg_no": "2127240701156",
+      "student_name": "SIVAPRIYA S"
+    },
+    {
+      "sr_no": 157,
+      "adm_no": "2024EC0081",
+      "univ_reg_no": "2127240701157",
+      "student_name": "SIVARAMAN A"
+    },
+    {
+      "sr_no": 158,
+      "adm_no": "2024EC0990",
+      "univ_reg_no": "2127240701158",
+      "student_name": "SN ARJUN"
+    },
+    {
+      "sr_no": 159,
+      "adm_no": "2024EC1004",
+      "univ_reg_no": "2127240701159",
+      "student_name": "SREEKHA P V"
+    },
+    {
+      "sr_no": 160,
+      "adm_no": "2024EC0639",
+      "univ_reg_no": "2127240701161",
+      "student_name": "SRI HARIHARAN V"
+    },
+    {
+      "sr_no": 161,
+      "adm_no": "2024EC0164",
+      "univ_reg_no": "2127240701162",
+      "student_name": "SRI RAM S"
+    },
+    {
+      "sr_no": 162,
+      "adm_no": "2024EC0992",
+      "univ_reg_no": "2127240701163",
+      "student_name": "SRI RAMANA KISHORE K"
+    },
+    {
+      "sr_no": 163,
+      "adm_no": "2024EC0981",
+      "univ_reg_no": "2127240701164",
+      "student_name": "SUBASAKTHI PALANIAPPAN A"
+    },
+    {
+      "sr_no": 164,
+      "adm_no": "2024EC0609",
+      "univ_reg_no": "2127240701165",
+      "student_name": "SUBHACHARAN M"
+    },
+    {
+      "sr_no": 165,
+      "adm_no": "2024EC0627",
+      "univ_reg_no": "2127240701166",
+      "student_name": "SURYANARAYANAN V"
+    },
+    {
+      "sr_no": 166,
+      "adm_no": "2024EC0365",
+      "univ_reg_no": "2127240701167",
+      "student_name": "TAMILARASAN K"
+    },
+    {
+      "sr_no": 167,
+      "adm_no": "2024EC0061",
+      "univ_reg_no": "2127240701168",
+      "student_name": "TAMILPRIYAN M"
+    },
+    {
+      "sr_no": 168,
+      "adm_no": "2024EC0630",
+      "univ_reg_no": "2127240701169",
+      "student_name": "TARUN ADITYA G G"
+    },
+    {
+      "sr_no": 169,
+      "adm_no": "2024EC0900",
+      "univ_reg_no": "2127240701170",
+      "student_name": "TEENA SHIRLEY SAVARIMUTHU"
+    },
+    {
+      "sr_no": 170,
+      "adm_no": "2024EC0658",
+      "univ_reg_no": "2127240701171",
+      "student_name": "TEJASH D"
+    },
+    {
+      "sr_no": 171,
+      "adm_no": "2024EC0295",
+      "univ_reg_no": "2127240701172",
+      "student_name": "THARRUN G M"
+    },
+    {
+      "sr_no": 172,
+      "adm_no": "2024EC0654",
+      "univ_reg_no": "2127240701173",
+      "student_name": "THIRULOGASUNDAR M"
+    },
+    {
+      "sr_no": 173,
+      "adm_no": "2024EC0997",
+      "univ_reg_no": "2127240701174",
+      "student_name": "THRISHNAA PRASANTH"
+    },
+    {
+      "sr_no": 174,
+      "adm_no": "2024EC0606",
+      "univ_reg_no": "2127240701175",
+      "student_name": "V N SANJAI"
+    },
+    {
+      "sr_no": 175,
+      "adm_no": "2024EC0896",
+      "univ_reg_no": "2127240701176",
+      "student_name": "V S SURYA"
+    },
+    {
+      "sr_no": 176,
+      "adm_no": "2024EC0024",
+      "univ_reg_no": "2127240701177",
+      "student_name": "VANISHREE G"
+    },
+    {
+      "sr_no": 177,
+      "adm_no": "2024EC0921",
+      "univ_reg_no": "2127240701178",
+      "student_name": "VARUN S N"
+    },
+    {
+      "sr_no": 178,
+      "adm_no": "2024EC0596",
+      "univ_reg_no": "2127240701179",
+      "student_name": "VARUNAN K"
+    },
+    {
+      "sr_no": 179,
+      "adm_no": "2024EC0634",
+      "univ_reg_no": "2127240701181",
+      "student_name": "VIGNESHWAR K"
+    },
+    {
+      "sr_no": 180,
+      "adm_no": "2024EC0610",
+      "univ_reg_no": "2127240701183",
+      "student_name": "VIJAYASARATHY B"
+    },
+    {
+      "sr_no": 181,
+      "adm_no": "2024EC0207",
+      "univ_reg_no": "2127240701184",
+      "student_name": "VISWANATHAN L"
+    },
+    {
+      "sr_no": 182,
+      "adm_no": "2024EC0605",
+      "univ_reg_no": "2127240701185",
+      "student_name": "YASHWANTH RAJ R"
+    },
+    {
+      "sr_no": 183,
+      "adm_no": "2024EC0960",
+      "univ_reg_no": "2127240701186",
+      "student_name": "YOKESH G"
+    },
+    {
+      "sr_no": 184,
+      "adm_no": "2024EC0069",
+      "univ_reg_no": "2127240701187",
+      "student_name": "YORICK BRADLEY P"
+    },
+    {
+      "sr_no": 185,
+      "adm_no": "2024EC1061",
+      "univ_reg_no": "2127240701301",
+      "student_name": "BALU G"
+    },
+    {
+      "sr_no": 186,
+      "adm_no": "2024EC1060",
+      "univ_reg_no": "2127240701302",
+      "student_name": "DILLIBABU M"
+    },
+    {
+      "sr_no": 187,
+      "adm_no": "2024EC1043",
+      "univ_reg_no": "2127240701303",
+      "student_name": "G SRI MEGHANAMALINI"
+    },
+    {
+      "sr_no": 188,
+      "adm_no": "2024EC1039",
+      "univ_reg_no": "2127240701304",
+      "student_name": "KESAVAN V"
+    },
+    {
+      "sr_no": 189,
+      "adm_no": "2024EC1057",
+      "univ_reg_no": "2127240701305",
+      "student_name": "MAGIDISWARAN D"
+    },
+    {
+      "sr_no": 190,
+      "adm_no": "2024EC1044",
+      "univ_reg_no": "2127240701306",
+      "student_name": "RAMYA D"
+    },
+    {
+      "sr_no": 191,
+      "adm_no": "2024EC1066",
+      "univ_reg_no": "2127240701307",
+      "student_name": "RAMYADEVI S"
+    },
+    {
+      "sr_no": 192,
+      "adm_no": "2024EC1032",
+      "univ_reg_no": "2127240701308",
+      "student_name": "VENKATADRI P"
+    },
+    {
+      "sr_no": 193,
+      "adm_no": "2024EC1067",
+      "univ_reg_no": "2127240701501",
+      "student_name": "MURALIKRISHNA R"
+    }
+  ]
+}
