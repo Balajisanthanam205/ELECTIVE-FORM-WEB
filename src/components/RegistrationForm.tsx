@@ -170,6 +170,7 @@ export default function RegistrationForm() {
         // Soft reload the page to trigger Server Component re-render
         // which will find the registration and display <AlreadyRegistered />
         router.refresh();
+        setSubmitting(false);
       } else {
         toast.error(data.error || "Registration failed. Please try again.", {
           duration: 5000,
