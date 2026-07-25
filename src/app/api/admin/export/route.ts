@@ -63,7 +63,7 @@ export async function GET(request: NextRequest) {
     return {
       "S.No": idx + 1,
       "Student Name": reg.student_name,
-      "Roll Number": reg.roll_number,
+      "Registration No.": reg.roll_number,
       Section: reg.section,
       "College Email": reg.college_email,
       "Subject Code": sub?.subject_code ?? "",
@@ -82,7 +82,7 @@ export async function GET(request: NextRequest) {
   ws1["!cols"] = [
     { wch: 6 },  // S.No
     { wch: 28 }, // Student Name
-    { wch: 18 }, // Roll Number
+    { wch: 20 }, // Registration No.
     { wch: 10 }, // Section
     { wch: 36 }, // College Email
     { wch: 14 }, // Subject Code
