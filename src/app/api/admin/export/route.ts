@@ -26,6 +26,7 @@ export async function GET(request: NextRequest) {
       `
       student_name,
       roll_number,
+      phone_number,
       section,
       college_email,
       registered_at,
@@ -64,6 +65,8 @@ export async function GET(request: NextRequest) {
       "S.No": idx + 1,
       "Student Name": reg.student_name,
       "Registration No.": reg.roll_number,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      "Phone No.": (reg as any).phone_number ?? "",
       Section: reg.section,
       "College Email": reg.college_email,
       "Subject Code": sub?.subject_code ?? "",
@@ -83,6 +86,7 @@ export async function GET(request: NextRequest) {
     { wch: 6 },  // S.No
     { wch: 28 }, // Student Name
     { wch: 20 }, // Registration No.
+    { wch: 14 }, // Phone No.
     { wch: 10 }, // Section
     { wch: 36 }, // College Email
     { wch: 14 }, // Subject Code
@@ -133,6 +137,7 @@ export async function GET(request: NextRequest) {
         { wch: 6 },
         { wch: 28 },
         { wch: 18 },
+        { wch: 14 }, // Phone No.
         { wch: 10 },
         { wch: 36 },
         { wch: 14 },

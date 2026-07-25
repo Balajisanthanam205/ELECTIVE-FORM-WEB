@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { student_name, roll_number, section, college_email, subject_id } =
+    const { student_name, roll_number, phone_number, section, college_email, subject_id } =
       parseResult.data;
 
     // 3. Use PostgreSQL stored procedure for atomic registration
@@ -37,6 +37,7 @@ export async function POST(request: NextRequest) {
     const { data, error } = await supabaseAdmin.rpc("register_student", {
       p_student_name: student_name,
       p_roll_number: roll_number,
+      p_phone_number: phone_number,
       p_section: section,
       p_college_email: college_email,
       p_subject_id: subject_id,

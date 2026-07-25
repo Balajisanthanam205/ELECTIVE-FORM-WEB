@@ -19,6 +19,14 @@ export const registrationSchema = z.object({
     .trim()
     .transform((v) => v.toUpperCase()),
 
+  phone_number: z
+    .string()
+    .regex(
+      /^[6-9]\d{9}$/,
+      "Phone number must be a valid 10-digit Indian mobile number"
+    )
+    .trim(),
+
   section: z
     .string()
     .min(1, "Please select a section"),
@@ -52,6 +60,7 @@ export interface Registration {
   id: string;
   student_name: string;
   roll_number: string;
+  phone_number: string;
   section: string;
   college_email: string;
   subject_id: string;
