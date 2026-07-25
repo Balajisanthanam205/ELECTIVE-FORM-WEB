@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
+
 import { Menu, X } from "lucide-react";
 import LogoutButton from "./LogoutButton";
 
@@ -20,13 +20,13 @@ export default function Header({ studentName = "", showAdmin = true }: HeaderPro
           {/* Logo & Title */}
           <div className="flex items-center gap-3 flex-shrink-0">
             <div className="shrink-0">
-              <Image
+              <img
                 src="/svce-logo.png"
                 alt="SVCE Logo"
                 width={80}
                 height={32}
                 className="h-8 sm:h-10 w-auto object-contain"
-                priority
+                
               />
             </div>
             <div className="hidden sm:block">
