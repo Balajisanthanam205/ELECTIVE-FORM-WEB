@@ -79,7 +79,7 @@ export default function AdminPage() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `OE_Registrations_${new Date().toISOString().slice(0, 10)}.xlsx`;
+      a.download = `VAC_Registrations_${new Date().toISOString().slice(0, 10)}.xlsx`;
       a.click();
       URL.revokeObjectURL(url);
     } catch {

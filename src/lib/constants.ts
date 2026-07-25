@@ -25,11 +25,6 @@ export const SECTIONS = [
   "A",
   "B",
   "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
 ] as const;
 
 export const MAX_SEATS = 48;
