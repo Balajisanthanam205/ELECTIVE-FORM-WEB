@@ -14,6 +14,7 @@ interface Registration {
   id: string;
   student_name: string;
   roll_number: string;
+  phone_number: string;
   section: string;
   college_email: string;
   registered_at: string;
@@ -112,6 +113,7 @@ export default function AdminPage() {
       !q ||
       r.student_name.toLowerCase().includes(q) ||
       r.roll_number.toLowerCase().includes(q) ||
+      (r.phone_number ?? "").toLowerCase().includes(q) ||
       r.section.toLowerCase().includes(q) ||
       r.college_email.toLowerCase().includes(q);
     const matchSubject =
@@ -376,7 +378,7 @@ export default function AdminPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-white/5 bg-white/[0.02]">
-                    {["#", "Student Name", "Registration No.", "Section", "College Email", "Subject", "Registered At"].map((h) => (
+                    {["#", "Student Name", "Registration No.", "Phone No.", "Section", "College Email", "Subject", "Registered At"].map((h) => (
                       <th key={h} className="text-left px-4 py-3 text-xs font-semibold text-slate-400 whitespace-nowrap">
                         {h}
                       </th>
@@ -392,6 +394,7 @@ export default function AdminPage() {
                       <td className="px-4 py-3 text-xs text-slate-600">{idx + 1}</td>
                       <td className="px-4 py-3 font-medium text-white whitespace-nowrap">{reg.student_name}</td>
                       <td className="px-4 py-3 font-mono text-blue-400 text-xs whitespace-nowrap">{reg.roll_number}</td>
+                      <td className="px-4 py-3 text-slate-300 text-xs whitespace-nowrap">{reg.phone_number ?? "—"}</td>
                       <td className="px-4 py-3 text-slate-300 whitespace-nowrap">{reg.section}</td>
                       <td className="px-4 py-3 text-slate-400 text-xs whitespace-nowrap">{reg.college_email}</td>
                       <td className="px-4 py-3 whitespace-nowrap">

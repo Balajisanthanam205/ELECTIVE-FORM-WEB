@@ -9,6 +9,7 @@ import {
   Hash,
   Layers,
   Mail,
+  Phone,
   Loader2,
   CheckCircle2,
   RefreshCw,
@@ -31,6 +32,7 @@ import type { Subject } from "@/lib/validations";
 interface FormState {
   student_name: string;
   registration_number: string;
+  phone_number: string;
   section: string;
   college_email: string;
   subject_id: string;
@@ -39,6 +41,7 @@ interface FormState {
 interface FieldError {
   student_name?: string;
   registration_number?: string;
+  phone_number?: string;
   section?: string;
   college_email?: string;
   subject_id?: string;
@@ -54,6 +57,7 @@ export default function RegistrationForm() {
   const [form, setForm] = useState<FormState>({
     student_name: "",
     registration_number: "",
+    phone_number: "",
     section: "",
     college_email: "",
     subject_id: "",
@@ -104,6 +108,15 @@ export default function RegistrationForm() {
       valid = false;
     }
 
+    const phone = form.phone_number.trim();
+    if (!phone) {
+      errors.phone_number = "Phone number is required";
+      valid = false;
+    } else if (!/^[6-9]\d{9}$/.test(phone)) {
+      errors.phone_number = "Enter a valid 10-digit Indian mobile number";
+      valid = false;
+    }
+
     if (!form.section) {
       errors.section = "Please select your section";
       valid = false;
@@ -140,6 +153,7 @@ export default function RegistrationForm() {
     const payload = {
       ...form,
       roll_number: `2127240701${form.registration_number.trim()}`,
+      phone_number: form.phone_number.trim(),
     };
 
     try {
@@ -266,6 +280,29 @@ export default function RegistrationForm() {
               className="flex-1 bg-transparent px-3 py-2.5 text-sm font-mono text-white placeholder-slate-600 focus:outline-none min-w-0"
             />
           </div>
+        </FormField>
+
+        {/* Phone Number */}
+        <FormField
+          id="phone_number"
+          label="Phone No."
+          icon={<Phone className="w-4 h-4" />}
+          error={fieldErrors.phone_number}
+          hint="10-digit Indian mobile number (e.g. 9876543210)"
+        >
+          <Input
+            id="phone_number"
+            type="tel"
+            placeholder="Enter your 10-digit mobile number"
+            value={form.phone_number}
+            onChange={(e) =>
+              handleChange("phone_number", e.target.value.replace(/\D/g, "").slice(0, 10))
+            }
+            disabled={submitting}
+            autoComplete="tel"
+            maxLength={10}
+            aria-invalid={!!fieldErrors.phone_number}
+          />
         </FormField>
 
         {/* Section & Email — side by side on md+ */}

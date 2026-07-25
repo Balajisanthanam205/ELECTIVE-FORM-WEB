@@ -25,6 +25,7 @@ export async function GET(request: NextRequest) {
       id,
       student_name,
       roll_number,
+      phone_number,
       section,
       college_email,
       registered_at,

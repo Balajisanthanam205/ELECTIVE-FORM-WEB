@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS public.registrations (
   id             UUID          PRIMARY KEY DEFAULT gen_random_uuid(),
   student_name   TEXT          NOT NULL,
   roll_number    TEXT          NOT NULL UNIQUE,
+  phone_number   TEXT          NOT NULL,
   section        TEXT          NOT NULL,
   college_email  TEXT          NOT NULL UNIQUE,
   subject_id     UUID          NOT NULL REFERENCES public.subjects(id) ON DELETE RESTRICT,
@@ -58,6 +59,7 @@ ON CONFLICT (subject_code) DO NOTHING;
 CREATE OR REPLACE FUNCTION public.register_student(
   p_student_name  TEXT,
   p_roll_number   TEXT,
+  p_phone_number  TEXT,
   p_section       TEXT,
   p_college_email TEXT,
   p_subject_id    UUID
@@ -128,12 +130,14 @@ BEGIN
   INSERT INTO public.registrations (
     student_name,
     roll_number,
+    phone_number,
     section,
     college_email,
     subject_id
   ) VALUES (
     TRIM(p_student_name),
     UPPER(TRIM(p_roll_number)),
+    TRIM(p_phone_number),
     TRIM(p_section),
     LOWER(TRIM(p_college_email)),
     p_subject_id
@@ -222,7 +226,7 @@ CREATE POLICY "no_direct_registration_write"
 
 -- Allow the anon role to call the registration function
 -- The SECURITY DEFINER means it executes with owner privileges
-GRANT EXECUTE ON FUNCTION public.register_student(TEXT, TEXT, TEXT, TEXT, UUID)
+GRANT EXECUTE ON FUNCTION public.register_student(TEXT, TEXT, TEXT, TEXT, TEXT, UUID)
   TO anon, authenticated;
 
 -- ─── END OF MIGRATION ─────────────────────────────────────────
