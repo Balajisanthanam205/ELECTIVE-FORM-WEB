@@ -337,7 +337,7 @@ export default function AdminPage() {
             <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
               <input
                 type="text"
-                placeholder="Search name, roll, email…"
+                placeholder="Search name, reg. no, email…"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="rounded-lg bg-white/5 border border-white/10 text-white placeholder-slate-600 px-3 py-1.5 text-xs focus:outline-none focus:border-blue-500/60 transition w-full sm:w-56"
@@ -367,7 +367,7 @@ export default function AdminPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-white/5 bg-white/[0.02]">
-                    {["#", "Student Name", "Roll Number", "Section", "College Email", "Subject", "Registered At"].map((h) => (
+                    {["#", "Student Name", "Registration No.", "Section", "College Email", "Subject", "Registered At"].map((h) => (
                       <th key={h} className="text-left px-4 py-3 text-xs font-semibold text-slate-400 whitespace-nowrap">
                         {h}
                       </th>

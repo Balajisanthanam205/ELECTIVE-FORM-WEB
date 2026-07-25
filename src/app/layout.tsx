@@ -10,19 +10,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Elective Course Registration | Student Portal",
+  title: "VAC Registration Portal | ECE – SVCE",
   description:
-    "Register for your elective subject online. One registration per student. Secure, fast, and real-time seat availability.",
+    "VAC (Value Added Course) elective registration portal for ECE students. AY 2026-2027. One registration per student. Real-time seat availability.",
   keywords: [
+    "VAC registration",
     "elective registration",
-    "course selection",
-    "student portal",
+    "ECE",
     "SVCE",
-    "subject registration",
+    "student portal",
+    "AY 2026-2027",
   ],
   openGraph: {
-    title: "Elective Course Registration Portal",
-    description: "Register for your elective subject — fast, secure, and real-time.",
+    title: "VAC Registration Portal | SVCE ECE",
+    description: "Register for your VAC elective subject — fast, secure, and real-time.",
     type: "website",
   },
   robots: { index: false, follow: false },
